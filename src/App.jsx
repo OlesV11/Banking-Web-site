@@ -32,8 +32,8 @@ function MainPage() {
       <Testimonials />
       <Cta />
       <Footer />
-      {/* Модальные окна */}
-      {/* Если Header не рендерит модалки, раскомментируйте ниже */}
+      {/* Модальні вікна */}
+      {/* Якщо Header не рендерит модалки,  */}
       {/* <SignUpModal
         open={signupOpen}
         onClose={() => setSignupOpen(false)}
@@ -56,7 +56,7 @@ function MainPage() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Banking-Web-site">
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/careers" element={<CareersPage />} />
