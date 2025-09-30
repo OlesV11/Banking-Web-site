@@ -1,0 +1,109 @@
+/* Основна секция продуктів */
+.products {
+  padding: 120px 0;
+}
+
+/* Вступний блок */
+.products__thumb {
+  display: flex;
+  margin-bottom: 80px;
+}
+.products__intro {
+}
+.products__title {
+  font-weight: 500;
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+.products__title__span {
+  color: #caff33;
+  font-weight: 500;
+  font-size: 38px;
+}
+.products__desc {
+  font-family: "Lexend", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #b3b3b3;
+  max-width: 831px;
+}
+
+/* Таби */
+.products__tabs {
+  display: flex;
+  border: 1px solid #262626;
+  border-radius: 82px;
+  padding: 12px;
+  width: 299px;
+  height: 65px;
+  background-color: #1c1c1c;
+  margin-left: auto;
+  align-items: center;
+  gap: 18px;
+  align-self: end;
+}
+.products__tab {
+  border-radius: 140px;
+  padding: 10px 18px;
+  width: 139px;
+  max-height: 41px;
+  background-color: #caff33;
+  text-align: center;
+  font-family: "Lexend", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #1c1c1c;
+}
+.products__tab__seco {
+  font-family: "Lexend", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+}
+
+/* Список продуктів */
+.products__list-wrap {
+  display: flex;
+}
+.products__list {
+  display: flex;
+  gap: 80px;
+}
+.products__item {
+}
+.products__icon__decor {
+  background: linear-gradient(
+    180deg,
+    rgba(202, 255, 51, 0.05) 0%,
+    rgba(202, 255, 51, 0.05) 100%
+  );
+  border-radius: 50px;
+  padding: 12px;
+  width: 56px;
+  height: 56px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  display: flex;
+  margin-bottom: 24px;
+}
+.products__icon {
+  display: table;
+  margin: 0 auto;
+  /* margin-bottom: 24px; */
+}
+.products__item-title {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.products__item-desc {
+  width: 373px;
+  height: 166px;
+  text-align: center;
+}

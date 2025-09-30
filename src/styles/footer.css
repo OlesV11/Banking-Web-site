@@ -1,0 +1,118 @@
+.footer {
+  padding: 48px 0 0 0;
+  border-radius: 0 0 18px 18px;
+}
+.footer__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.footer__logo-img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 8px;
+}
+.footer__nav {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 24px;
+}
+.footer__nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+.footer__nav-link:hover {
+  color: #caff33;
+}
+.footer__divider {
+  border: none;
+  border-top: 1px solid #232923;
+  margin: 18px 0;
+}
+.footer__contacts {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  align-items: center;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+.footer__contact {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  font-size: 1rem;
+}
+.footer__contact-icon {
+  color: #caff33;
+  font-size: 1.2em;
+}
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  padding-bottom: 18px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.footer__socials {
+  display: flex;
+  gap: 14px;
+}
+.footer__social-link {
+  background: #232923;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #caff33;
+  font-size: 1.2em;
+  transition: background 0.2s, color 0.2s;
+}
+.footer__social-link:hover {
+  background: #caff33;
+  color: #181f1b;
+}
+.footer__copyright {
+  color: #bdbdbd;
+  font-size: 0.95rem;
+}
+.footer__links {
+  display: flex;
+  gap: 18px;
+}
+.footer__policy-link {
+  color: #bdbdbd;
+  text-decoration: none;
+  font-size: 0.95rem;
+  border-radius: 100px;
+  padding: 6px 14px;
+  transition: background 0.2s, color 0.2s;
+}
+.footer__policy-link:hover {
+  background: #232923;
+  color: #caff33;
+}
+@media (max-width: 900px) {
+  .footer__bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .footer__container {
+    padding: 0 8px;
+  }
+}

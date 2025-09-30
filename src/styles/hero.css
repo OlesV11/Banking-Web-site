@@ -1,0 +1,176 @@
+/* Стилі для Hero */
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 520px;
+  padding: 64px 64px 0px 64px;
+}
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  width: 100%;
+}
+.hero-info {
+  max-width: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-badge {
+  background: #232834;
+  color: #fff;
+  font-size: 0.95rem;
+  padding: 6px 18px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  display: inline-block;
+  font-weight: 500;
+}
+.hero-title {
+  font-size: 2.7rem;
+  font-weight: 800;
+  margin-bottom: 18px;
+  line-height: 1.2;
+}
+.accent {
+  color: #c4ff4a;
+}
+.hero-desc {
+  font-size: 1.15rem;
+  color: #b0b8c1;
+  margin-bottom: 32px;
+}
+.hero-cta {
+  background: #c4ff4a;
+  color: #181c23;
+  border: none;
+  border-radius: 8px;
+  padding: 16px 32px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 2px 16px 0 #c4ff4a33;
+}
+.hero-cta:hover {
+  background: #b3e636;
+}
+
+.hero-card {
+  background: #232834;
+  border-radius: 24px;
+  box-shadow: 0 4px 32px 0 #00000033;
+  padding: 32px 32px 24px 32px;
+  min-width: 340px;
+  max-width: 370px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.card-balance {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.card-balance__icon {
+  font-size: 1.2rem;
+}
+.card-balance__amount {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+.card-balance__label {
+  font-size: 0.95rem;
+  color: #c4ff4a;
+  font-weight: 500;
+}
+.card-transactions {
+  margin-bottom: 10px;
+}
+.card-transactions__title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.card-transactions__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.98rem;
+  margin-bottom: 4px;
+}
+.card-transactions__item .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #c4ff4a;
+  display: inline-block;
+}
+.card-transactions__item .dot.green {
+  background: #c4ff4a;
+}
+.card-transactions__item.inactive {
+  opacity: 0.5;
+}
+.card-transactions__item .amount {
+  margin-left: auto;
+  font-weight: 600;
+}
+.card-exchange {
+  margin-bottom: 10px;
+}
+.card-exchange__title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.card-exchange__row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.98rem;
+  margin-bottom: 8px;
+}
+.flag {
+  font-size: 1.1rem;
+}
+.exchange-amount {
+  font-weight: 600;
+  margin-right: 8px;
+}
+.exchange-btn {
+  background: #232834;
+  color: #c4ff4a;
+  border: 1px solid #c4ff4a;
+  border-radius: 8px;
+  padding: 8px 18px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.exchange-btn:hover {
+  background: #c4ff4a;
+  color: #181c23;
+}
+.card-currencies {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #b0b8c1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.currency {
+  background: #232834;
+  color: #c4ff4a;
+  border-radius: 6px;
+  padding: 2px 8px;
+  font-weight: 700;
+  font-size: 1rem;
+}

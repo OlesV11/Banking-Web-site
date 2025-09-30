@@ -1,0 +1,57 @@
+.careers-benefits-section {
+}
+.careers-benefits__title {
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.careers-benefits__title__span {
+  color: #caff33;
+}
+.careers-benefits__desc {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #b3b3b3;
+}
+.careers-benefits__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px 60px;
+  justify-content: center;
+}
+.careesr-benefits__thumb {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+.careers-benefits__item {
+  border-radius: 40px 14px;
+  padding: 40px;
+  max-width: 610px;
+  background-color: #1c1c1c;
+}
+.careers-benefits__icon {
+  font-size: 1.5em;
+}
+.careers-benefits__item-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #fff;
+}
+.careers-benefits__item-subsc {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #b3b3b3;
+}
+
+@media (max-width: 900px) {
+  .careers-benefits__list {
+    flex-direction: column;
+    gap: 18px;
+  }
+}

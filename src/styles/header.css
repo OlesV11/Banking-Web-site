@@ -1,0 +1,72 @@
+/* Стили для Header */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 64px 24px 64px;
+  background: #181c23;
+  border-bottom: 1px solid #232834;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.header__brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.header__nav {
+  display: flex;
+  gap: 32px;
+}
+.header__nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 0.85;
+  padding: 8px 18px;
+  border-radius: 8px;
+  transition: background 0.2s, opacity 0.2s;
+}
+.header__nav a:hover {
+  background: #232834;
+  opacity: 1;
+}
+.header__actions {
+  display: flex;
+  gap: 16px;
+}
+.header__signup {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #c4ff4a;
+  border-radius: 8px;
+  padding: 10px 24px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.header__signup:hover {
+  background: #c4ff4a;
+  color: #181c23;
+}
+.header__login {
+  background: #c4ff4a;
+  color: #181c23;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 24px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.header__login:hover {
+  background: #b3e636;
+}
