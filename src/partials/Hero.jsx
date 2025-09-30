@@ -16,7 +16,9 @@ export default function Hero({ onOpenLogin }) {
               financial goals. We are committed to delivering personalized and
               innovative services that prioritize our customers’ needs.
             </p>
-            <button className="hero-cta" onClick={onOpenLogin}>Open Account</button>
+            <button className="hero-cta" onClick={onOpenLogin}>
+              Open Account
+            </button>
           </div>
           <div className="hero-card">
             <div className="card-balance">

@@ -4,7 +4,12 @@ import React from "react";
 import SignUpModal from "./SignUpModal";
 import LoginModal from "./LoginModal";
 
-export default function Header({ signupOpen, setSignupOpen, loginOpen, setLoginOpen }) {
+export default function Header({
+  signupOpen,
+  setSignupOpen,
+  loginOpen,
+  setLoginOpen,
+}) {
   return (
     <>
       <header className="header">
